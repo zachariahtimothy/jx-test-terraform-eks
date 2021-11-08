@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 module "eks-jx" {
-  source               = "https://github.com/jenkins-x/terraform-aws-eks-jx/archive/refs/tags/v1.17.3.zip"
+  source               = "jenkins-x/eks-jx/aws"
   cluster_version      = var.cluster_version
   region               = var.region
   vault_user           = var.vault_user

@@ -10,6 +10,7 @@ variable "region" {
 variable "profile" {
   description = "Profile stored in aws config or credentials file"
   type        = string
+  default     = "jx-test"
 }
 
 variable "cluster_version" {
