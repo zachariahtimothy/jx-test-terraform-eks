@@ -46,7 +46,7 @@ variable "is_jx2" {
 variable "jx_git_url" {
   description = "URL for the Jenins X cluster git repository"
   type        = string
-  default     = "https://github.com/zachariahtimothy/jx-test-terraform-eks.git"
+  default     = "https://github.com/jx3-gitops-repositories/jx3-eks-vault"
 }
 
 variable "jx_bot_username" {
@@ -63,7 +63,7 @@ variable "jx_bot_token" {
 variable "nginx_chart_version" {
   type        = string
   description = "nginx chart version"
-  default     = "3.12.0"
+  default     = "4.0.6"
 }
 
 variable "install_kuberhealthy" {
