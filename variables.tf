@@ -46,7 +46,7 @@ variable "is_jx2" {
 variable "jx_git_url" {
   description = "URL for the Jenins X cluster git repository"
   type        = string
-  default     = "https://github.com/jx3-gitops-repositories/jx3-eks-vault"
+  default     = "https://github.com/zachariahtimothy/jx-test-eks-vault"
 }
 
 variable "jx_bot_username" {
